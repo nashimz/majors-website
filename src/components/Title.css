@@ -1,0 +1,16 @@
+
+
+.titles {
+    
+    float: right;
+    margin-right: 50px;
+    margin-top: 80px;
+    font-family: "Protest Strike", sans-serif;
+    font-size: 60px;
+    text-shadow: 8px 0 3px #000000, 5px 0 5px #1b1b1b;
+    color: white;
+}
+
+.titles img {
+    border-radius: 30px;
+}
