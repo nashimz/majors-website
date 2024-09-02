@@ -44,7 +44,7 @@ function Cards() {
         <Card.Text>
          {item.text}
         </Card.Text>
-        <Button variant="primary">Read more</Button>
+        <Button variant="warning">Read more</Button>
       </Card.Body>
     </Card>
     

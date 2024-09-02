@@ -13,8 +13,29 @@
     
 }
 
+nav {
+    position: relative;
+}
 
 
+#basic-navbar-nav {
+    position: absolute;
+    left: 45%;
+}
+
+.dropdown-item {
+    color: gold
+}
+
+.dropdown-menu {
+    background-color: black;
+}
+
+.container {
+    margin:0;
+    padding: 0;
+    
+}
 
 
 

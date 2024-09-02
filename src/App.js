@@ -1,8 +1,10 @@
-import './components/Navbar.css'
+
 import './App.css';
 import Navbar from './components/Navbar';
-import Cards from './components/Cards';
-import Title from './components/Title';
+import Home from './components/Home';
+import Series from './components/Series'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import SeriesId from './components/SeriesId';
 
 
 function App() {
@@ -10,17 +12,33 @@ function App() {
 
   return (
     
-    <div className="App">
-      
+    <Router>
       <Navbar/>
-      <Title/>
-      <Cards/>
+    
+      
+      <Switch>
+      <Route exact path="/">
+    
+      <Home/>
+      </Route>
+      <Route path="/series">
+      <Series />
+      <Route path=":id" element={<SeriesId />} />
+      
+      </Route >
+
+      
+      
+      
+      
+
+      </Switch>
       
       
        
-      </div>
+      
      
-    
+      </Router>
   );
 }
 

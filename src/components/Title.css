@@ -3,14 +3,18 @@
 .titles {
     
     float: right;
-    margin-right: 50px;
-    margin-top: 80px;
+    margin-right: 150px;
+    margin-top: 85px;
     font-family: "Protest Strike", sans-serif;
     font-size: 60px;
     text-shadow: 8px 0 3px #000000, 5px 0 5px #1b1b1b;
     color: white;
+    font-style: italic;
 }
 
-.titles img {
-    border-radius: 30px;
+
+.container {
+    margin:0;
+    padding: 0;
+    
 }

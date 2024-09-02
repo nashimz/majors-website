@@ -1,0 +1,15 @@
+ .seriesCont {
+    width: 80%;
+}
+
+
+.seriesCont .row
+{
+    width: 100%;
+}
+
+
+.seriesCont .col img {
+    width: 100%;
+}
+
